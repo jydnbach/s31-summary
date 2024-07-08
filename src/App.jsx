@@ -1,6 +1,5 @@
 import { useState } from 'react';
 
-import Post from './components/Post';
 import PostList from './components/PostList';
 import MainHeader from './components/MainHeader';
 

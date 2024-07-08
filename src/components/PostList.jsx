@@ -13,9 +13,8 @@ function PostList({ isPosting, onStopPosting }) {
       const res = await fetch('http://localhost:8080/posts');
       const data = await res.json();
       setPosts(data.posts);
-
-      fetchPosts();
     }
+    fetchPosts();
   }, []);
 
   function addPostHandler(postData) {
