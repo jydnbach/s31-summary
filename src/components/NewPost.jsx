@@ -37,7 +37,7 @@ function NewPost({ onCancel, onAddPost }) {
         <button type="button" onClick={onCancel}>
           Cancel
         </button>
-        <button type="submit">Submit</button>
+        <button>Submit</button>
       </p>
     </form>
   );

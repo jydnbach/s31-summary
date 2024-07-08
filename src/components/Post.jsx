@@ -1,7 +1,5 @@
 import classes from './Post.module.css';
 
-const names = ['jayden', 'chris'];
-
 function Post({ author, body }) {
   return (
     <li className={classes.post}>
